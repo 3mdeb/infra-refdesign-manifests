@@ -5,14 +5,14 @@
   <remote fetch="https://git.savannah.gnu.org" name="gnugit"/>
   <remote fetch="https://git.kernel.org" name="kernel"/>
 
-  <project remote="arm" name="platsw/scp-firmware" path="scp" revision="refs/tags/RD-INFRA-2023.03.31"/>
-  <project remote="arm" name="platsw/trusted-firmware-a" path="tf-a" revision="refs/tags/RD-INFRA-2023.03.31"/>
-  <project remote="arm" name="platsw/edk2" path="uefi/edk2" revision="refs/tags/RD-INFRA-2023.03.31"/>
-  <project remote="arm" name="platsw/edk2-platforms" path="uefi/edk2/edk2-platforms" revision="refs/tags/RD-INFRA-2023.03.31"/>
-  <project remote="arm" name="platsw/linux" path="linux" revision="refs/tags/RD-INFRA-2023.03.31"/>
-  <project remote="arm" name="scripts/build-scripts" path="build-scripts" revision="refs/tags/RD-INFRA-2023.03.31"/>
-  <project remote="arm" name="scripts/model-scripts" path="model-scripts" revision="refs/tags/RD-INFRA-2023.03.31"/>
-  <project remote="arm" name="scripts/container-scripts" path="container-scripts" revision="refs/tags/RD-INFRA-2023.03.31"/>
+  <project remote="arm" name="platsw/scp-firmware" path="scp" revision="refs/tags/RD-INFRA-2023.06.30"/>
+  <project remote="arm" name="platsw/trusted-firmware-a" path="tf-a" revision="refs/tags/RD-INFRA-2023.06.30"/>
+  <project remote="arm" name="platsw/edk2" path="uefi/edk2" revision="refs/tags/RD-INFRA-2023.06.30"/>
+  <project remote="arm" name="platsw/edk2-platforms" path="uefi/edk2/edk2-platforms" revision="refs/tags/RD-INFRA-2023.06.30"/>
+  <project remote="arm" name="platsw/linux" path="linux" revision="refs/tags/RD-INFRA-2023.06.30"/>
+  <project remote="arm" name="scripts/build-scripts" path="build-scripts" revision="refs/tags/RD-INFRA-2023.06.30"/>
+  <project remote="arm" name="scripts/model-scripts" path="model-scripts" revision="refs/tags/RD-INFRA-2023.06.30"/>
+  <project remote="arm" name="scripts/container-scripts" path="container-scripts" revision="refs/tags/RD-INFRA-2023.06.30"/>
 
   <project remote="github" name="acpica/acpica" path="tools/acpica" revision="refs/tags/R09_25_20"/>
   <project remote="github" name="ARMmbed/mbedtls.git" path="mbedtls" revision="refs/tags/mbedtls-2.28.0"/>
