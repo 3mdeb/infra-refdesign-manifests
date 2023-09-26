@@ -14,14 +14,14 @@
   <project remote="arm" name="scripts/build-scripts" path="build-scripts" revision="refinfra"/>
   <project remote="arm" name="scripts/model-scripts" path="model-scripts" revision="refinfra"/>
   <project remote="arm" name="scripts/container-scripts" path="container-scripts" revision="main"/>
-  <project remote="arm" name="platsw/buildroot" path="buildroot" revision="refinfra"/>
   <project remote="arm" name="valsw/kvm-unit-tests" path="validation/sys-test/kvm-unit-tests" revision="refinfra"/>
+  <project remote="arm" name="platsw/buildroot" path="buildroot" revision="refinfra"/>
 
   <project remote="tforg" name="TF-A/tf-a-tests.git" path="validation/comp-test/trusted-firmware-tf" revision="10f278d7d1713ae53ef55f5aba080d9d37401417"/>
-  <project remote="github" name="acpica/acpica" path="tools/acpica" revision="refs/tags/R09_25_20"/>
+  <project remote="github" name="acpica/acpica" path="tools/acpica" revision="refs/tags/R06_28_23"/>
   <project remote="github" name="ARMmbed/mbedtls.git" path="mbedtls" revision="refs/tags/mbedtls-2.28.0"/>
-  <project remote="github" name="mirror/busybox" path="busybox" revision="refs/tags/1_33_0"/>
+  <project remote="github" name="mirror/busybox" path="busybox" revision="refs/tags/1_36_0"/>
   <project remote="gnugit" name="git/grub.git" path="grub" revision="refs/tags/grub-2.04"/>
   <project remote="kernel" name="pub/scm/linux/kernel/git/jejb/efitools" path="tools/efitools" revision="refs/tags/v1.9.2"/>
-  <project remote="kernel" name="pub/scm/linux/kernel/git/will/kvmtool" path="kvmtool" revision="95f47968a1d34ea27d4f3ad767f0c2c49f2ffc5b"/>
+  <project remote="kernel" name="pub/scm/linux/kernel/git/will/kvmtool" path="kvmtool" revision="e17d182ad3f797f01947fc234d95c96c050c534b"/>
 </manifest>
