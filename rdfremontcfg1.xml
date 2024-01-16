@@ -18,13 +18,14 @@
   <project remote="arm" name="scripts/model-scripts" path="model-scripts" revision="refinfra-fremont"/>
   <project remote="arm" name="scripts/container-scripts" path="container-scripts" revision="refinfra-fremont"/>
 
-  <project remote="linux-arm" name="linux-arm/kvm-unit-tests-cca" path="validation/sys-test/kvm-unit-tests" revision="refs/tags/cca-rfc-v1"/>
-  <project remote="linux-arm" name="linux-arm/kvmtool-cca" path="kvmtool" revision="refs/tags/cca-rfc-v1"/>
+  <project remote="linux-arm" name="linux-arm/kvm-unit-tests-cca" path="validation/sys-test/kvm-unit-tests" revision="refs/tags/cca/rmm-v1.0-eac5"/>
+  <project remote="linux-arm" name="linux-arm/kvmtool-cca" path="kvmtool" revision="refs/heads/cca/rmm-v1.0-eac5"/>
 
   <project remote="github" name="acpica/acpica" path="tools/acpica" revision="refs/tags/R09_25_20"/>
   <project remote="github" name="ARMmbed/mbedtls.git" path="mbedtls" revision="refs/tags/mbedtls-2.28.0"/>
-  <project remote="github" name="mirror/busybox" path="busybox" revision="refs/tags/1_33_0"/>
-  <project remote="github" name="buildroot/buildroot" path="buildroot" revision="refs/tags/2023.02"/>
+  <project remote="github" name="mirror/busybox" path="busybox" revision="refs/tags/1_36_0"/>
+  <project remote="github" name="buildroot/buildroot" path="buildroot" revision="3865d88423c18f28f74efd9878a386db9491246f"/>
   <project remote="gnugit" name="git/grub.git" path="grub" revision="refs/tags/grub-2.04"/>
   <project remote="kernel" name="pub/scm/linux/kernel/git/jejb/efitools" path="tools/efitools" revision="refs/tags/v1.9.2"/>
+  <project remote="tforg" name="hafnium/hafnium.git" path="hafnium" revision="9681574575c02764ff85b4c0903ab61a6327ed16"/>
 </manifest>
