@@ -20,7 +20,7 @@
   <project remote="arm" name="valsw/kvm-unit-tests" path="validation/sys-test/kvm-unit-tests" revision="refinfra"/>
   <project remote="arm" name="platsw/buildroot" path="buildroot" revision="refinfra"/>
 
-  <project remote="linux-arm" name="linux-arm/kvmtool-cca" path="kvmtool" revision="refs/heads/cca/rmm-v1.0-eac5"/>
+  <project remote="linux-arm" name="linux-arm/kvmtool-cca" path="kvmtool" revision="refs/heads/cca/v2"/>
 
   <project remote="github" name="acpica/acpica" path="tools/acpica" revision="refs/tags/G20240322"/>
   <project remote="github" name="ARMmbed/mbedtls.git" path="mbedtls" revision="refs/tags/mbedtls-3.6.0"/>

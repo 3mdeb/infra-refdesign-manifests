@@ -7,23 +7,23 @@
   <remote fetch="https://git.kernel.org" name="kernel"/>
   <remote fetch="https://git.trustedfirmware.org" name="tforg"/>
 
-  <project remote="arm" name="platsw/trusted-firmware-m" path="tf-m" revision="refs/tags/RD-INFRA-2024.04.17"/>
-  <project remote="arm" name="platsw/scp-firmware" path="scp" revision="refs/tags/RD-INFRA-2024.04.17"/>
-  <project remote="arm" name="platsw/trusted-firmware-a" path="tf-a" revision="refs/tags/RD-INFRA-2024.04.17"/>
-  <project remote="arm" name="platsw/tf-rmm" path="rmm" revision="refs/tags/RD-INFRA-2024.04.17"/>
-  <project remote="arm" name="platsw/edk2" path="uefi/edk2" revision="refs/tags/RD-INFRA-2024.04.17"/>
-  <project remote="arm" name="platsw/edk2-platforms" path="uefi/edk2/edk2-platforms" revision="refs/tags/RD-INFRA-2024.04.17"/>
-  <project remote="arm" name="platsw/linux" path="linux" revision="refs/tags/RD-INFRA-2024.04.17"/>
-  <project remote="arm" name="scripts/build-scripts" path="build-scripts" revision="refs/tags/RD-INFRA-2024.04.17"/>
-  <project remote="arm" name="scripts/model-scripts" path="model-scripts" revision="refs/tags/RD-INFRA-2024.04.17"/>
-  <project remote="arm" name="scripts/container-scripts" path="container-scripts" revision="refs/tags/RD-INFRA-2024.04.17"/>
-  <project remote="arm" name="valsw/kvm-unit-tests" path="validation/sys-test/kvm-unit-tests" revision="refs/tags/RD-INFRA-2024.04.17"/>
-  <project remote="arm" name="platsw/buildroot" path="buildroot" revision="refs/tags/RD-INFRA-2024.04.17"/>
+  <project remote="arm" name="platsw/trusted-firmware-m" path="tf-m" revision="refs/tags/RD-INFRA-2024.07.15"/>
+  <project remote="arm" name="platsw/scp-firmware" path="scp" revision="refs/tags/RD-INFRA-2024.07.15"/>
+  <project remote="arm" name="platsw/trusted-firmware-a" path="tf-a" revision="refs/tags/RD-INFRA-2024.07.15"/>
+  <project remote="arm" name="platsw/tf-rmm" path="rmm" revision="refs/tags/RD-INFRA-2024.07.15"/>
+  <project remote="arm" name="platsw/edk2" path="uefi/edk2" revision="refs/tags/RD-INFRA-2024.07.15"/>
+  <project remote="arm" name="platsw/edk2-platforms" path="uefi/edk2/edk2-platforms" revision="refs/tags/RD-INFRA-2024.07.15"/>
+  <project remote="arm" name="platsw/linux" path="linux" revision="refs/tags/RD-INFRA-2024.07.15"/>
+  <project remote="arm" name="scripts/build-scripts" path="build-scripts" revision="refs/tags/RD-INFRA-2024.07.15"/>
+  <project remote="arm" name="scripts/model-scripts" path="model-scripts" revision="refs/tags/RD-INFRA-2024.07.15"/>
+  <project remote="arm" name="scripts/container-scripts" path="container-scripts" revision="refs/tags/RD-INFRA-2024.07.15"/>
+  <project remote="arm" name="valsw/kvm-unit-tests" path="validation/sys-test/kvm-unit-tests" revision="refs/tags/RD-INFRA-2024.07.15"/>
+  <project remote="arm" name="platsw/buildroot" path="buildroot" revision="refs/tags/RD-INFRA-2024.07.15"/>
 
-  <project remote="linux-arm" name="linux-arm/kvmtool-cca" path="kvmtool" revision="refs/heads/cca/rmm-v1.0-eac5"/>
+  <project remote="linux-arm" name="linux-arm/kvmtool-cca" path="kvmtool" revision="refs/heads/cca/v2"/>
 
-  <project remote="github" name="acpica/acpica" path="tools/acpica" revision="refs/tags/R09_25_20"/>
-  <project remote="github" name="ARMmbed/mbedtls.git" path="mbedtls" revision="refs/tags/mbedtls-3.4.1"/>
+  <project remote="github" name="acpica/acpica" path="tools/acpica" revision="refs/tags/G20240322"/>
+  <project remote="github" name="ARMmbed/mbedtls.git" path="mbedtls" revision="refs/tags/mbedtls-3.6.0"/>
   <project remote="github" name="mirror/busybox" path="busybox" revision="refs/tags/1_36_0"/>
   <project remote="gnugit" name="git/grub.git" path="grub" revision="refs/tags/grub-2.04"/>
   <project remote="kernel" name="pub/scm/linux/kernel/git/jejb/efitools" path="tools/efitools" revision="refs/tags/v1.9.2"/>
