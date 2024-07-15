@@ -18,7 +18,7 @@
   <project remote="arm" name="platsw/buildroot" path="buildroot" revision="refinfra"/>
 
   <project remote="tforg" name="TF-A/tf-a-tests.git" path="validation/comp-test/trusted-firmware-tf" revision="6f9e14a0e3a9e14051cf6235a49b06bae32823d9"/>
-  <project remote="github" name="acpica/acpica" path="tools/acpica" revision="refs/tags/R06_28_23"/>
+  <project remote="github" name="acpica/acpica" path="tools/acpica" revision="refs/tags/G20240322"/>
   <project remote="github" name="ARMmbed/mbedtls.git" path="mbedtls" revision="refs/tags/mbedtls-3.6.0"/>
   <project remote="github" name="mirror/busybox" path="busybox" revision="refs/tags/1_36_0"/>
   <project remote="gnugit" name="git/grub.git" path="grub" revision="refs/tags/grub-2.04"/>
