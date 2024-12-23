@@ -18,6 +18,7 @@
   <project remote="arm" name="scripts/model-scripts" path="model-scripts" revision="refinfra"/>
   <project remote="arm" name="scripts/container-scripts" path="container-scripts" revision="main"/>
   <project remote="arm" name="valsw/kvm-unit-tests" path="validation/sys-test/kvm-unit-tests" revision="refinfra"/>
+  <project remote="arm" name="valsw/tf-a-tests" path="validation/comp-test/tf-a-tests" revision="refinfra"/>
   <project remote="arm" name="platsw/buildroot" path="buildroot" revision="refinfra"/>
 
   <project remote="linux-arm" name="linux-arm/kvmtool-cca" path="kvmtool" revision="refs/heads/cca/v2"/>
