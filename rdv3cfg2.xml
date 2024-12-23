@@ -24,7 +24,7 @@
 
   <project remote="github" name="acpica/acpica" path="tools/acpica" revision="refs/tags/G20240322"/>
   <project remote="github" name="ARMmbed/mbedtls.git" path="mbedtls" revision="refs/tags/mbedtls-3.6.2"/>
-  <project remote="github" name="mirror/busybox" path="busybox" revision="refs/tags/1_36_0"/>
+  <project remote="github" name="mirror/busybox" path="busybox" revision="refs/tags/1_36_1"/>
   <project remote="gnugit" name="git/grub.git" path="grub" revision="refs/tags/grub-2.04"/>
   <project remote="kernel" name="pub/scm/linux/kernel/git/jejb/efitools" path="tools/efitools" revision="refs/tags/v1.9.2"/>
   <project remote="tforg" name="hafnium/hafnium.git" path="hafnium" revision="41e8d5b1f805e882554b567e587c0eed5a81c49d"/>
