@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  RD-V3 with the DRTM proof of concept (EL3 firmware TPM + Arm DRTM, DEN0113).
+
+  The RD-V3 software stack of pinned-rdv3.xml, plus:
+    drtm-poc       patch series for tf-a, edk2-platforms and build-scripts,
+                   Debian DRTM kernel build and guest scripts
+    ms-tpm-20-ref  TPM 2.0 reference implementation used by the EL3 fTPM
+
+  After repo sync, apply the patches:
+    drtm-poc/scripts/apply-patches.sh
+  and build with:
+    PLAT_ENABLE_EL3_FTPM=1 PLAT_ENABLE_DRTM=1 ./build-scripts/build-test-uefi.sh -p rdv3 all
+-->
+<manifest>
+  <include name="pinned-rdv3.xml"/>
+
+  <remote fetch="https://github.com/3mdeb/" name="3mdeb"/>
+
+  <project remote="3mdeb" name="arm-rdv3-drtm-poc" path="drtm-poc" revision="75f88e41b02837aabec146974f720f2dccdaab3e"/>
+  <project remote="github" name="microsoft/ms-tpm-20-ref" path="ms-tpm-20-ref" revision="ee21db0a941decd3cac67925ea3310873af60ab3" upstream="main" sync-s="true"/>
+</manifest>
